@@ -1,4 +1,4 @@
 # em học pandas
-- DataFrame là gì : là matrix , là table
-- Series là gì : là vector, là column
+- what DataFrame is ? : trong toán là matrix , trong OOP là table, trong programming là mảng 2 chiều
+- Series là gì : trong toán làlà vector, trong OOP là column, trong programming là mảng 1 chiều
 
