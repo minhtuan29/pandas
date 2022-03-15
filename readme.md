@@ -11,8 +11,8 @@ Nhóm học tập : d2l.aivivn.com/intro_vn.html  , machinelearningcoban.com/201
 ![t](https://user-images.githubusercontent.com/86332370/158283558-870f24e0-9b54-4cc6-85e1-550d4e08e6a1.png)
 - vector có thể biểu diễn được 1 ĐOẠN VECTOR trong không gian với tọa độ ban đầu lấy mặc định là tọa độ gốc của hệ trục tọa độ (ĐOẠN VECTOR : là một đoạn thẳng có hướng , tức là phân biệt được điểm bắt đầu và điểm kết thúc). Ví dụ : cho vector [-5], ĐOẠN VECTOR của nó là tia xuất phát từ gốc tọa độ (0) cà chấm dứt tại tọa độ (-5).
 ![t](https://user-images.githubusercontent.com/86332370/158283929-b93b877b-d99b-4eb3-b9e9-1e4c1f2c67ac.png)
-- PHÉP CÁC PHÉP TOÁN GIỮA 2 VECTOR :  
-chúng ta có các phép toán cộng/trừ/nhân/chia/mũ  giữa 2 vector, chú ý 2 vector muốn thực hiện tính toán với nhau cần có cùng số lượng phần tử. Khi thực hiện các phép toán giữa 2 vector kết quả sẽ ra một vector mới, là kết quả của việc thao tác phép toán như toán cơ bản lên từng phần tử tương ứng giữa 2 vector. Ví dụ A=[1,2,3] B=[2,2,2] ta có A+B sẽ ra C=[3,4,5]
+- PHÉP CÁC PHÉP TOÁN SƠ CẤP GIỮA 2 VECTOR :  
+chúng ta có các phép toán sơ cấp cộng/trừ/nhân/chia/mũ  giữa 2 vector (các phép toán nâng cao abs/log/exp/sin/cos/tan đc xây dựng từ các phép cơ bản). chú ý 2 vector muốn thực hiện tính toán với nhau cần có cùng số lượng phần tử. Khi thực hiện các phép toán giữa 2 vector kết quả sẽ ra một vector mới, là kết quả của việc thao tác phép toán như toán cơ bản lên từng phần tử tương ứng giữa 2 vector. Ví dụ A=[1,2,3] B=[2,2,2] ta có A+B sẽ ra C=[3,4,5]
 - PHÉP TOÁN GIỮA VECTOR VÀ 1 SỐ :  
 Cho vector A và một scalar n, phép tính toán giữa A và n được chuyển về dạng các phép tính toán giữa 2 vector.  
 Ví dụ :  cho A=[1.2.3] ,    ta có 2<span>+</span>A <=> [2,2,2]<span>+</span>[1,2,3]
